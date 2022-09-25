@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap");
+
+* {
+  font-family: "Open Sans", sans-serif;
+
+  background-color: #12161F;
+}
+h1 {
+  padding: 20px;
+}
+
+p {
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.logo {
+  background-color: #12161F;
+  width: 30%;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 50%;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.form > h1 {
+  margin-bottom: 10px;
+}
+
+.form > input,
+textarea {
+  padding: 20px;
+  border-radius: 30px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+  margin-bottom: 10px;
+  border: 1px solid lightgray;
+  /* border: none; */
+  background: #12161F;
+  font-size: 16px;
+  font-weight: 300;
+  color: white;
+  outline: none;
+}
+
+.form > input:focus,
+textarea:focus {
+  border: 1px solid white;
+}
+
+.form > textarea {
+  height: 150px;
+  max-width: 30%;
+  min-height: 100px;
+}
+
+.form > label {
+  padding-bottom: 10px;
+  color: white;
+  font-weight: bold;
+}
+
+.form > button {
+  padding: 15px;
+
+  background-color: #12161F;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+
+  color: #12161F;
+  color: white;
+  border-radius: 30px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+
+  border: 1px solid lightgray;
+}
+
+.form > button:hover {
+  background-color: #12161F;
+}
+
+.heading {
+  color: white;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+.paratext {
+  color: white;
+  font-size: medium;
+
+  margin-left: 30px;
+}
+
+img {
+  max-width: 80%;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+p {
+  color: white;
+}
+
+input {
+  color: #12161F;
+}
+
+.left,
+.right {
+  height: 100%;
+
+  position: fixed;
+  z-index: 1;
+  top: 0;
+}
+.left {
+  left: 0;
+  width: 40%;
+}
+.right {
+  right: 0;
+  padding-top: 0px;
+  width: 60%;
+}
+
+/* CSS for footer */
+
+header,
+footer {
+  position: fixed;
+  width: 100%;
+  background-color: black;
+}
+
+header {
+  top: 0;
+  height: 100px;
+  text-align: center;
+  padding-left: 20px;
+}
+
+footer {
+  bottom: 0;
+  height: 100px;
+}
+
+section {
+  position: relative;
+  height: 1500px;
+}
+
+.download-button{
+  padding: 15px;
+
+  background-color: #12161F;
+  font-weight: 300;
+  font-size: 15px;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+
+  color: #12161F;
+  color: white;
+  border-radius: 30px;
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.137); */
+  margin-top: 30px;
+  border: 1px solid lightgray;
+  margin-left: 600px;
+  width: 80%;
+}
+
+.footer > img {
+  width: 5%;
+  margin-bottom:100px;
+  margin-left:590px;
+}
